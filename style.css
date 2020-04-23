@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    /*
+    display: flex;
+    justify-content: center;
+    doesnt work
+    */
+}
+
+.header{
+    width:  850px;
+    height: 400px;
+    position: relavtive;
+}
+
+.background-img{
+    background-color: #3b5998 ;
+    width:  850px;
+    height: 300px;
+    position: relavtive;
+}
+
+
+.profile-pic{
+    border: black solid 1px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: -90px;
+    left: 40px;
+    background-color: #3b5998 ;
+
+}
+
+.like-message{
+    background-color:  white;
+    text-decoration: none;
+}
+ 
+.like-message ul{
+    position:relative;
+    list-style-type: none;
+    float: right;
+    top: -190px;
+}
+.like-message li{
+    display: inline;
+}
+
+.yourpagename{
+    position: relative;
+    top: -250px;
+    left: 191px;
+    font-style: fantasy;
+    color: white;
+
+}
+
+.timeline-more{
+    position: relative;
+    top: -266px;
+    left: 191px;
+    list-style-type: none;
+}
+
+.timeline-more li{
+    display: inline;
+    margin: 5px;
+}
+
+.leftcolumn{
+    position: absolute;
+    background-color:white;
+    width: 328px;
+    height: 160px;
+    border: 1px solid #3b5998;
+}
+
+.aboutyourpage{
+    align-self: auto;
+}
+
+.aboutyourpage h1{
+    font-size: 18px;
+}
+.aboutyourpage p{
+    color: #3b5998;
+}
+
+
+.footer{
+    position: absolute;
+    background-color:white;
+    width: 327px;
+    top: 160px;
+    border: 1px solid #3b5998;
+    font-weight: bold;
+}
+
+
+
+.rightcolumn{
+    position: absolute;
+    width: 512px;
+    left: 338px;
+    height: 270px;
+    background-color: white;
+    border: 1px solid #3b5998
+}
+
+
+.proflepic{
+    position: absolute;
+    border: black solid 1px;
+    width: 75px;
+    left: 8px;
+    top: 10px;
+    height: 75px;
+    background-color: #3b5998; 
+}
+
+.changed{
+    position: absolute;
+   left: 100px;
+}
+
+.changed b{
+    color: #3b5998 ;
+}
+
+.changed em{
+    color:#3b5998;
+}
+
+.changed h2{
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.changed p{
+    font-size: 12px;
+    opacity: 0.7;
+}
+.blankphoto{
+    position: absolute;
+    background-color: #3b5998;
+    top: 100px;
+    height: 160px;
+    width: 500px;
+    left: 5px;
+}
+
+.footer2{
+    position: absolute;
+    background-color:white;
+    width: 512px;
+    top: 268px;
+    left: -1px;
+    border: .5px solid #3b5998;
+    font-weight: bold;
+}
